@@ -20,7 +20,7 @@ namespace Homework5
         private double length;
         private double width;
         private double height;
-        private ushort windows;
+        private short windows;
         private double square;
         private double volume;
 
@@ -63,7 +63,7 @@ namespace Homework5
             }
         }
 
-        public ushort Windows
+        public short Windows
         {
             set
             {
@@ -158,7 +158,7 @@ namespace Homework5
                     Lenght = double.Parse(tbLength.Text),
                     Width = double.Parse(tbWidth.Text),
                     Height = double.Parse(tbHeight.Text),
-                    Windows = ushort.Parse(tbWindows.Text),
+                    Windows = short.Parse(tbWindows.Text),
                     Square = 1,
                     Volume = 1,
                     Availability = true
