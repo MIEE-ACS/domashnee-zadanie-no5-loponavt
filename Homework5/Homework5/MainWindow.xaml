@@ -1,0 +1,24 @@
+﻿<Window x:Class="Homework5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="463" Width="808">
+    <Grid>
+        <Label Content="Длина, м:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="tbLength" HorizontalAlignment="Left" Margin="10,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" FontSize="18"/>
+        <Label Content="Ширина, м:" HorizontalAlignment="Left" Margin="153,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="tbWidth" HorizontalAlignment="Left" Margin="153,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <Label Content="Высота, м:" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="tbHeight" HorizontalAlignment="Left" Margin="314,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <Label Content="Кол-во окон:" HorizontalAlignment="Left" Margin="477,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="tbWindows" HorizontalAlignment="Left" Margin="477,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" FontSize="18"/>
+        <Button x:Name="btnAdd" Content="Добавить" HorizontalAlignment="Left" Margin="670,54,0,0" VerticalAlignment="Top" Height="26" Width="101" FontSize="18" Click="btnAdd_Click"/>
+        <ListBox x:Name="lbRooms" Margin="10,107,10,53" SelectionMode="Multiple"/>
+        <Button x:Name="btnDelete" Content="Удалить" Margin="0,0,10,10" FontSize="18" Click="btnDelete_Click" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="83"/>
+        <Button x:Name="btnSelect" Content="Выбрать" Margin="14,0,0,10" FontSize="18" HorizontalAlignment="Left" Width="83" Height="27" VerticalAlignment="Bottom" Click="btnSelect_Click" />
+
+    </Grid>
+</Window>
